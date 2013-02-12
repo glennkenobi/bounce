@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*///////////////////////////////////////////
+//  Glenn Herbert 2013.                    //
+//  Hope you like my code.                //
+//  If you're reading this, hello,       //
+//  You look nice today.                //
+///////////////////////////////////////*/
+
+
+.backgroundcontainer {
+	margin-top: 20px;
+	height: 314px;
+	float:left;
+	width: 100%;
+	background-image: url(../img/spaceinvader.png), url(../img/bg.png);
+	background-repeat: no-repeat, repeat;
+	background-position: 0px 0px, top;
+    -webkit-animation: movesmiley 10s linear infinite;       
+	
+}
+/* keyframe animate x and y px positions */
+@-webkit-keyframes movesmiley {
+ 0% {background-position: -50px -50px;}
+ 10% {background-position: 150px 50px;}
+ 20% {background-position: 350px -50px;}
+ 30% {background-position: 550px 50px;}
+ 40% {background-position: 750px -50px;}
+ 50% {background-position: 950px 50px;}
+ 60% {background-position: 750px -50px;}
+ 70% {background-position: 550px 50px;}
+ 80% {background-position: 350px -50px;}
+ 90% {background-position: 150px 50px;}
+ 100% {background-position: -50px -50px;}
+
+}
+
